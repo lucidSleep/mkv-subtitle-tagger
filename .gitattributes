@@ -1,0 +1,8 @@
+# Line endings are the repository's business, not each machine's core.autocrlf setting.
+#
+# Everything is stored and checked out with LF, as .editorconfig asks. `eol=lf` overrides a global
+# core.autocrlf=true, which would otherwise hand Mac and Linux users a CRLF `fix-subs` launcher
+# ("bad interpreter"). The Windows launcher is the exception: cmd.exe wants CRLF.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf

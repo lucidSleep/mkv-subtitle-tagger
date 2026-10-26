@@ -1,0 +1,9 @@
+{
+  "mkvToolNixDir": {
+    "windows": "C:\\Program Files\\MKVToolNix",
+    "macos": "/Applications/MKVToolNix-*.app/Contents/MacOS",
+    "linux": "/usr/bin"
+  },
+  "maxParallel": 4,
+  "workRoot": ""
+}
